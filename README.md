@@ -30,7 +30,7 @@ Normál esetben minden design kérdést egyeztetnék a grafikussal, de ennek hi�
 - Lehetne autó típus alapján eltérő kép (feladat is írja). Mivel csak személyautóra van asset és a backend is csak azt adja vissza, így nem tudom mikre kellene megvalósítani. De több helyen is van erre példa, amikor típustól eltérően implementálok pl. TextStyle-t. Itt is enum extensionnel oldanám meg első ránézésre.
 - Lehetne egy globális progressTracker minden hívásra, ami automatikusan kezeli a loading / error dialog megjelenítését.
 - Yettel ikon és név beállítása az alkalmazásnak
-- Ha egy teljes alkalmazás lenne és kosár kezelést alkalmaznánk, akkor egy oda illő provider kezelné a kosár tartalmát, nem pedig screen paraméterként lennének továbbadva.
+- Ha egy teljes alkalmazás lenne és kosár kezelést alkalmaznánk, akkor egy odaillő provider kezelné a kosár tartalmát, nem pedig screen paraméterként lennének továbbadva.
 - API feleslegesen adja vissza a megrendelést, ha úgysem használjuk semmire, ami felesleges modelleket igényel frontenden.
 - Megfelelő adminisztrálás és verziókezelés (commitokkal és branchekkel), de idő hiányában ezt kihagytam
 - Összetett alkalmazás esetén kellene újrahasznosítható komponenseket gyártani (pl success screen)
